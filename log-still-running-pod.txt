@@ -1,0 +1,298 @@
+Added 'id_admin' to '/opt/jboss/keycloak/standalone/configuration/keycloak-add-user.json', restart server to load user
+-b 0.0.0.0
+=========================================================================
+
+  Using MySQL database
+
+=========================================================================
+
+[0m05:11:25,604 INFO  [org.jboss.modules] (CLI command executor) JBoss Modules version 1.10.1.Final
+[0m[0m05:11:25,712 INFO  [org.jboss.msc] (CLI command executor) JBoss MSC version 1.4.11.Final
+[0m[0m05:11:25,724 INFO  [org.jboss.threads] (CLI command executor) JBoss Threads version 2.3.3.Final
+[0m[0m05:11:25,859 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 11.0.2 (WildFly Core 12.0.3.Final) starting
+[0m[0m05:11:25,971 INFO  [org.jboss.vfs] (MSC service thread 1-2) VFS000002: Failed to clean existing content for temp file provider of type temp. Enable DEBUG level log to find what caused this
+[0m[0m05:11:27,134 INFO  [org.wildfly.security] (ServerService Thread Pool -- 19) ELY00001: WildFly Elytron version 1.12.1.Final
+[0m[0m05:11:28,244 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m05:11:28,367 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m05:11:28,560 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+[0m[33m05:11:28,600 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /opt/jboss/keycloak/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[0m05:11:28,721 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m05:11:28,723 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 11.0.2 (WildFly Core 12.0.3.Final) started in 3107ms - Started 56 of 79 services (32 services are lazy, passive or on-demand)
+[0mThe batch executed successfully
+[0m05:11:28,959 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: Keycloak 11.0.2 (WildFly Core 12.0.3.Final) stopped in 25ms
+[0m[0m05:11:31,263 INFO  [org.jboss.modules] (CLI command executor) JBoss Modules version 1.10.1.Final
+[0m[0m05:11:31,333 INFO  [org.jboss.msc] (CLI command executor) JBoss MSC version 1.4.11.Final
+[0m[0m05:11:31,341 INFO  [org.jboss.threads] (CLI command executor) JBoss Threads version 2.3.3.Final
+[0m[0m05:11:31,484 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 11.0.2 (WildFly Core 12.0.3.Final) starting
+[0m[0m05:11:31,575 INFO  [org.jboss.vfs] (MSC service thread 1-1) VFS000002: Failed to clean existing content for temp file provider of type temp. Enable DEBUG level log to find what caused this
+[0m[0m05:11:32,521 INFO  [org.wildfly.security] (ServerService Thread Pool -- 22) ELY00001: WildFly Elytron version 1.12.1.Final
+[0m[0m05:11:33,595 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m05:11:33,676 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m05:11:33,892 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+[0m[33m05:11:33,904 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /opt/jboss/keycloak/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[0m05:11:34,015 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m05:11:34,017 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 11.0.2 (WildFly Core 12.0.3.Final) started in 2748ms - Started 56 of 86 services (39 services are lazy, passive or on-demand)
+[0mThe batch executed successfully
+[0m05:11:34,276 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: Keycloak 11.0.2 (WildFly Core 12.0.3.Final) stopped in 22ms
+[0mSetting JGroups discovery to JDBC_PING with properties {}
+Setting cache owners to 2 replicas
+Enabling replication of AuthenticationSessions with 2 replicas
+Executing cli script: /opt/jboss/startup-scripts/keycloak.cli
+[0m05:12:02,947 INFO  [org.jboss.modules] (CLI command executor) JBoss Modules version 1.10.1.Final
+[0m[0m05:12:03,017 INFO  [org.jboss.msc] (CLI command executor) JBoss MSC version 1.4.11.Final
+[0m[0m05:12:03,027 INFO  [org.jboss.threads] (CLI command executor) JBoss Threads version 2.3.3.Final
+[0m[0m05:12:03,158 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 11.0.2 (WildFly Core 12.0.3.Final) starting
+[0m[0m05:12:03,268 INFO  [org.jboss.vfs] (MSC service thread 1-1) VFS000002: Failed to clean existing content for temp file provider of type temp. Enable DEBUG level log to find what caused this
+[0m[0m05:12:04,251 INFO  [org.wildfly.security] (ServerService Thread Pool -- 21) ELY00001: WildFly Elytron version 1.12.1.Final
+[0m[0m05:12:05,361 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m05:12:05,475 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m05:12:05,654 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+[0m[33m05:12:05,670 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /opt/jboss/keycloak/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[0m05:12:05,782 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m05:12:05,784 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 11.0.2 (WildFly Core 12.0.3.Final) started in 2827ms - Started 56 of 86 services (39 services are lazy, passive or on-demand)
+[0mConfiguring node identifier
+NodeName: ${jboss.node.name}
+Finished configuring node identifier
+CUSTOM_CONFIG: executing CONFIG FOR K8S Failover Support
+"------------------------------------------------------------------------------------------------------------"
+"---------------------------------CUSTOM STARTUP CONFIG------------------------------------------------------"
+"------------------------------------------------------------------------------------------------------------"
+"------------------------------------------------------------------------------------------------------------"
+"---------------------------------CUSTOM STARTUP CONFIG DONE!------------------------------------------------"
+"------------------------------------------------------------------------------------------------------------"
+[0m05:12:05,936 INFO  [org.jboss.as.controller.management-deprecated] (CLI command executor) WFLYCTL0395: Operation add against the resource at address /subsystem=jgroups/stack=tcp/protocol=pbcast.GMS/property=max_join_attempts is deprecated, and it might be removed in future version. See the the output of the read-operation-description operation to learn more about the deprecation.
+[0m[0m05:12:06,038 INFO  [org.jboss.as.controller.management-deprecated] (CLI command executor) WFLYCTL0395: Operation add against the resource at address /subsystem=jgroups/stack=tcp/protocol=org.jgroups.protocols.JDBC_PING/property=datasource_jndi_name is deprecated, and it might be removed in future version. See the the output of the read-operation-description operation to learn more about the deprecation.
+[0m[0m05:12:06,040 INFO  [org.jboss.as.controller.management-deprecated] (CLI command executor) WFLYCTL0395: Operation add against the resource at address /subsystem=jgroups/stack=tcp/protocol=org.jgroups.protocols.JDBC_PING/property=initialize_sql is deprecated, and it might be removed in future version. See the the output of the read-operation-description operation to learn more about the deprecation.
+[0mThe batch executed successfully
+process-state: reload-required 
+"JGROUPS_DISCOVERY_EXTERNAL_IP maybe not set."
+[0m05:12:06,179 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: Keycloak 11.0.2 (WildFly Core 12.0.3.Final) stopped in 22ms
+[0mJAVA_OPTS already set in environment; overriding default settings with values: -XX:+UseContainerSupport -XX:MaxRAMPercentage=50.0 -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=$JBOSS_MODULES_SYSTEM_PKGS -Djava.awt.headless=true
+=========================================================================
+
+  JBoss Bootstrap Environment
+
+  JBOSS_HOME: /opt/jboss/keycloak
+
+  JAVA: java
+
+  JAVA_OPTS:  -server -XX:+UseContainerSupport -XX:MaxRAMPercentage=50.0 -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=$JBOSS_MODULES_SYSTEM_PKGS -Djava.awt.headless=true  --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED
+
+=========================================================================
+
+[0m05:12:07,273 INFO  [org.jboss.modules] (main) JBoss Modules version 1.10.1.Final
+[0m[0m05:12:07,961 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final
+[0m[0m05:12:07,970 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+[0m[0m05:12:08,160 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 11.0.2 (WildFly Core 12.0.3.Final) starting
+[0m[0m05:12:08,352 INFO  [org.jboss.vfs] (MSC service thread 1-1) VFS000002: Failed to clean existing content for temp file provider of type temp. Enable DEBUG level log to find what caused this
+[0m[0m05:12:09,806 INFO  [org.wildfly.security] (ServerService Thread Pool -- 22) ELY00001: WildFly Elytron version 1.12.1.Final
+[0m[0m05:12:11,092 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m05:12:11,245 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 27) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m05:12:11,291 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0001: Content added at location /opt/jboss/keycloak/standalone/data/content/45/9a2fc09f936e23b141810cc8d399d2719dc93d/content
+[0m[0m05:12:11,465 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m05:12:11,489 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.8.1.Final
+[0m[0m05:12:11,500 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.8.1.Final
+[0m[0m05:12:11,589 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 39) WFLYCLINF0001: Activating Infinispan subsystem.
+[0m[0m05:12:11,604 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.18.Final
+[0m[0m05:12:11,643 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 2 IO threads with 16 max task threads based on your 1 available processors
+[0m[0m05:12:11,649 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 34) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+[0m[0m05:12:11,658 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 55) WFLYSEC0002: Activating Security Subsystem
+[0m[0m05:12:11,659 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 43) WFLYCLJG0001: Activating JGroups subsystem. JGroups version 4.2.4
+[0m[0m05:12:11,669 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 49) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+[0m[0m05:12:11,683 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+[0m[0m05:12:11,686 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00005
+[0m[0m05:12:11,701 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 48) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+[0m[0m05:12:11,702 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 41) WFLYRS0016: RESTEasy version 3.12.1.Final
+[0m[0m05:12:11,724 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 50) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+[0m[0m05:12:11,745 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 34) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+[0m[33m05:12:11,914 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 58) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+[0m[0m05:12:11,927 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.22.Final)
+[0m[0m05:12:11,955 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.1.3.Final starting
+[0m[0m05:12:12,028 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 58) WFLYUT0014: Creating file handler for path '/opt/jboss/keycloak/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+[0m[0m05:12:12,104 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+[0m[0m05:12:12,106 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = mysql
+[0m[0m05:12:12,180 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 16 (per class), which is derived from thread worker pool sizing.
+[0m[0m05:12:12,180 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 4 (per class), which is derived from the number of CPUs on this host.
+[0m[0m05:12:12,300 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+[0m[0m05:12:12,366 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+[0m[0m05:12:12,401 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+[0m[0m05:12:12,657 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+[0m[0m05:12:12,716 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+[0m[0m05:12:12,717 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow AJP listener ajp listening on 0.0.0.0:8009
+[0m[0m05:12:12,743 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+[0m[0m05:12:12,749 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 60) MODCLUSTER000001: Initializing mod_cluster version 1.4.1.Final
+[0m[0m05:12:12,756 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 60) MODCLUSTER000032: Listening to proxy advertisements on /224.0.1.105:23364
+[0m[33m05:12:12,765 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /opt/jboss/keycloak/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[0m05:12:12,794 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory /opt/jboss/keycloak/standalone/deployments
+[0m[0m05:12:12,802 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+[0m[0m05:12:12,802 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "keycloak-metrics-spi.jar" (runtime-name: "keycloak-metrics-spi.jar")
+[0m[0m05:12:12,873 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: EJB subsystem suspension complete
+[0m[0m05:12:13,057 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+[0m[0m05:12:13,406 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+[0m[0m05:12:13,407 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+[0m[0m05:12:13,460 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-2) Deploying Keycloak provider: keycloak-metrics-spi.jar
+[0m[31m05:12:14,414 ERROR [org.jgroups.protocols.TCP] (ServerService Thread Pool -- 60) JGRP000034: keycloak-0: failure sending message to keycloak-0: java.net.SocketTimeoutException: connect timed out
+[0m[31m05:12:14,715 ERROR [org.jgroups.protocols.TCP] (ServerService Thread Pool -- 60) JGRP000034: keycloak-0: failure sending message to keycloak-1: java.net.SocketTimeoutException: connect timed out
+[0m[31m05:12:15,017 ERROR [org.jgroups.protocols.TCP] (ServerService Thread Pool -- 60) JGRP000034: keycloak-0: failure sending message to keycloak-0: java.net.SocketTimeoutException: connect timed out
+[0m[31m05:12:15,318 ERROR [org.jgroups.protocols.TCP] (ServerService Thread Pool -- 60) JGRP000034: keycloak-0: failure sending message to keycloak-0: java.net.SocketTimeoutException: connect timed out
+[0m[31m05:12:15,620 ERROR [org.jgroups.protocols.TCP] (ServerService Thread Pool -- 60) JGRP000034: keycloak-0: failure sending message to keycloak-0: java.net.SocketTimeoutException: connect timed out
+[0m[31m05:12:15,921 ERROR [org.jgroups.protocols.TCP] (ServerService Thread Pool -- 60) JGRP000034: keycloak-0: failure sending message to keycloak-1: java.net.SocketTimeoutException: connect timed out
+[0m[31m05:12:16,226 ERROR [org.jgroups.protocols.TCP] (ServerService Thread Pool -- 60) JGRP000034: keycloak-0: failure sending message to keycloak-1: java.net.SocketTimeoutException: connect timed out
+[0m[33m05:12:19,533 WARN  [org.jgroups.protocols.pbcast.GMS] (ServerService Thread Pool -- 60) keycloak-0: JOIN(keycloak-0) sent to keycloak-0 timed out (after 3000 ms), on try 0
+[0m[33m05:12:22,944 WARN  [org.jgroups.protocols.pbcast.GMS] (ServerService Thread Pool -- 60) keycloak-0: JOIN(keycloak-0) sent to keycloak-1 timed out (after 3000 ms), on try 0
+[0m[33m05:12:26,429 WARN  [org.jgroups.protocols.pbcast.GMS] (ServerService Thread Pool -- 60) keycloak-0: JOIN(keycloak-0) sent to keycloak-1 timed out (after 3000 ms), on try 0
+[0m[33m05:12:29,735 WARN  [org.jgroups.protocols.pbcast.GMS] (ServerService Thread Pool -- 60) keycloak-0: JOIN(keycloak-0) sent to keycloak-0 timed out (after 3000 ms), on try 0
+[0m[0m05:12:30,328 INFO  [org.infinispan.PERSISTENCE] (MSC service thread 1-1) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+[0m[0m05:12:30,328 INFO  [org.infinispan.PERSISTENCE] (MSC service thread 1-2) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+[0m[0m05:12:30,349 INFO  [org.infinispan.CONTAINER] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Turia' 10.1.8.Final
+[0m[0m05:12:30,525 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-1) ISPN000078: Starting JGroups channel ejb
+[0m[0m05:12:30,525 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-2) ISPN000078: Starting JGroups channel ejb
+[0m[0m05:12:30,533 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-1) ISPN000094: Received new cluster view for channel ejb: [keycloak-1|97] (2) [keycloak-1, keycloak-0]
+[0m[0m05:12:30,533 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-2) ISPN000094: Received new cluster view for channel ejb: [keycloak-1|97] (2) [keycloak-1, keycloak-0]
+[0m[0m05:12:30,550 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-2) ISPN000079: Channel ejb local address is keycloak-0, physical addresses are [10.56.0.72:7600]
+[0m[0m05:12:30,550 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-1) ISPN000079: Channel ejb local address is keycloak-0, physical addresses are [10.56.0.72:7600]
+[0m[0m05:12:30,602 INFO  [org.infinispan.PERSISTENCE] (MSC service thread 1-1) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+[0m[0m05:12:30,608 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-1) ISPN000078: Starting JGroups channel ejb
+[0m[0m05:12:30,609 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-1) ISPN000094: Received new cluster view for channel ejb: [keycloak-1|97] (2) [keycloak-1, keycloak-0]
+[0m[0m05:12:30,612 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-1) ISPN000079: Channel ejb local address is keycloak-0, physical addresses are [10.56.0.72:7600]
+[0m[0m05:12:31,121 INFO  [org.infinispan.PERSISTENCE] (MSC service thread 1-1) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+[0m[0m05:12:31,121 INFO  [org.infinispan.PERSISTENCE] (MSC service thread 1-2) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+[0m[0m05:12:31,128 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-1) ISPN000078: Starting JGroups channel ejb
+[0m[0m05:12:31,129 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-1) ISPN000094: Received new cluster view for channel ejb: [keycloak-1|97] (2) [keycloak-1, keycloak-0]
+[0m[0m05:12:31,128 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-2) ISPN000078: Starting JGroups channel ejb
+[0m[0m05:12:31,130 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-2) ISPN000094: Received new cluster view for channel ejb: [keycloak-1|97] (2) [keycloak-1, keycloak-0]
+[0m[0m05:12:31,131 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-2) ISPN000079: Channel ejb local address is keycloak-0, physical addresses are [10.56.0.72:7600]
+[0m[0m05:12:31,132 INFO  [org.infinispan.CLUSTER] (MSC service thread 1-1) ISPN000079: Channel ejb local address is keycloak-0, physical addresses are [10.56.0.72:7600]
+[0m[0m05:12:31,162 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+[0m[0m05:12:31,164 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started loginFailures cache from keycloak container
+[0m[0m05:12:31,185 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+[0m[0m05:12:31,203 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+[0m[0m05:12:31,218 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0002: Started sessions cache from keycloak container
+[0m[0m05:12:31,260 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0002: Started work cache from keycloak container
+[0m[0m05:12:31,262 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0002: Started clientSessions cache from keycloak container
+[0m[0m05:12:31,278 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0002: Started actionTokens cache from keycloak container
+[0m[0m05:12:31,314 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started keys cache from keycloak container
+[0m[0m05:12:31,315 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started users cache from keycloak container
+[0m[0m05:12:31,315 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started authorization cache from keycloak container
+[0m[0m05:12:31,315 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0002: Started realms cache from keycloak container
+[0m[0m05:12:31,363 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0002: Started client-mappings cache from ejb container
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by protostream.com.google.protobuf.UnsafeUtil (jar:file:/opt/jboss/keycloak/modules/system/layers/base/org/infinispan/protostream/main/protostream-4.3.2.Final.jar!/) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of protostream.com.google.protobuf.UnsafeUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[0m[33m05:12:31,776 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+[0m[0m05:12:32,370 INFO  [org.keycloak.services] (ServerService Thread Pool -- 70) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+[0m[0m05:12:32,635 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 70) Frontend: <request>, Admin: <frontend>, Backend: <request>
+[0m[33m05:12:32,926 WARN  [org.keycloak.services] (ServerService Thread Pool -- 70) KC-SERVICES0047: metrics (org.jboss.aerogear.keycloak.metrics.MetricsEndpointFactory) is implementing the internal SPI realm-restapi-extension. This SPI is internal and may change without notice
+[0m[33m05:12:32,943 WARN  [org.keycloak.services] (ServerService Thread Pool -- 70) KC-SERVICES0047: metrics-listener (org.jboss.aerogear.keycloak.metrics.MetricsEventListenerFactory) is implementing the internal SPI eventsListener. This SPI is internal and may change without notice
+[0m[0m05:12:32,980 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+[0m[0m05:12:32,983 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0002: Started userRevisions cache from keycloak container
+[0m[0m05:12:32,987 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+[0m[0m05:12:32,989 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 70) Node name: keycloak-0, Site name: null
+[0m[0m05:12:35,350 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 70) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+[0m[0m05:12:35,422 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 70) HHH000412: Hibernate Core {5.3.17.Final}
+[0m[0m05:12:35,424 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 70) HHH000206: hibernate.properties not found
+[0m[0m05:12:35,581 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 70) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+[0m[0m05:12:35,797 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 70) HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[0m[0m05:12:35,846 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 70) Envers integration enabled? : true
+[0m[0m05:12:36,473 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 70) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[0m[0m05:12:36,544 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 70) HV000001: Hibernate Validator 6.0.20.Final
+[0m[0m05:12:38,135 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 70) HHH000397: Using ASTQueryTranslatorFactory
+[0m[0m05:12:39,370 INFO  [org.keycloak.services] (ServerService Thread Pool -- 70) KC-SERVICES0006: Importing users from '/opt/jboss/keycloak/standalone/configuration/keycloak-add-user.json'
+[0m[33m05:12:39,611 WARN  [org.keycloak.services] (ServerService Thread Pool -- 70) KC-SERVICES0104: Not creating user id_admin. It already exists.
+[0m[0m05:12:39,648 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 70) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+[0m[0m05:12:39,650 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 70) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+[0m[0m05:12:39,651 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 70) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+[0m[0m05:12:39,651 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 70) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+[0m[0m05:12:39,652 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 70) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+[0m[0m05:12:39,652 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 70) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+[0m[0m05:12:39,652 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 70) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+[0m[0m05:12:39,652 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 70) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+[0m[0m05:12:39,652 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 70) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+[0m[0m05:12:39,652 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 70) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+[0m[0m05:12:39,802 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+[0m[0m05:12:39,922 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 35) WFLYSRV0010: Deployed "keycloak-metrics-spi.jar" (runtime-name : "keycloak-metrics-spi.jar")
+[0m[0m05:12:39,924 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 46) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+[0m[0m05:12:40,059 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m05:12:40,063 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 11.0.2 (WildFly Core 12.0.3.Final) started in 33366ms - Started 730 of 1020 services (689 services are lazy, passive or on-demand)
+[0m[0m05:12:40,065 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://0.0.0.0:9990/management
+[0m[0m05:12:40,065 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://0.0.0.0:9990
+[0m[0m05:21:26,685 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN000094: Received new cluster view for channel ejb: [keycloak-0|98] (1) [keycloak-0]
+[0m[0m05:21:26,690 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN100001: Node keycloak-1 left the cluster
+[0m[0m05:21:26,690 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN000094: Received new cluster view for channel ejb: [keycloak-0|98] (1) [keycloak-0]
+[0m[0m05:21:26,691 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN100001: Node keycloak-1 left the cluster
+[0m[0m05:21:26,694 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN000094: Received new cluster view for channel ejb: [keycloak-0|98] (1) [keycloak-0]
+[0m[0m05:21:26,694 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN100001: Node keycloak-1 left the cluster
+[0m[0m05:21:26,698 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN000094: Received new cluster view for channel ejb: [keycloak-0|98] (1) [keycloak-0]
+[0m[0m05:21:26,698 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN100001: Node keycloak-1 left the cluster
+[0m[0m05:21:26,699 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN000094: Received new cluster view for channel ejb: [keycloak-0|98] (1) [keycloak-0]
+[0m[0m05:21:26,699 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN100001: Node keycloak-1 left the cluster
+[0m[0m05:21:26,711 INFO  [org.infinispan.CLUSTER] (transport-thread--p15-t6) [Context=offlineClientSessions] ISPN100007: After merge (or coordinator change), recovered members [keycloak-0] with topology id 274
+[0m[0m05:21:26,711 INFO  [org.infinispan.CLUSTER] (transport-thread--p9-t2) [Context=org.infinispan.CONFIG] ISPN100007: After merge (or coordinator change), recovered members [keycloak-0] with topology id 274
+[0m[0m05:21:26,716 INFO  [org.infinispan.CLUSTER] (transport-thread--p28-t3) [Context=client-mappings] ISPN100007: After merge (or coordinator change), recovered members [keycloak-0] with topology id 274
+[0m[0m05:21:26,735 INFO  [org.infinispan.CLUSTER] (transport-thread--p15-t6) [Context=authenticationSessions] ISPN100007: After merge (or coordinator change), recovered members [keycloak-0] with topology id 274
+[0m[0m05:21:26,741 INFO  [org.infinispan.CLUSTER] (transport-thread--p15-t6) [Context=sessions] ISPN100007: After merge (or coordinator change), recovered members [keycloak-0] with topology id 274
+[0m[0m05:21:26,747 INFO  [org.infinispan.CLUSTER] (transport-thread--p15-t6) [Context=org.infinispan.CONFIG] ISPN100007: After merge (or coordinator change), recovered members [keycloak-0] with topology id 274
+[0m[0m05:21:26,750 INFO  [org.infinispan.CLUSTER] (transport-thread--p15-t6) [Context=clientSessions] ISPN100007: After merge (or coordinator change), recovered members [keycloak-0] with topology id 274
+[0m[0m05:21:26,754 INFO  [org.infinispan.CLUSTER] (transport-thread--p15-t6) [Context=work] ISPN100007: After merge (or coordinator change), recovered members [keycloak-0] with topology id 274
+[0m[0m05:21:26,756 INFO  [org.infinispan.CLUSTER] (transport-thread--p15-t6) [Context=offlineSessions] ISPN100007: After merge (or coordinator change), recovered members [keycloak-0] with topology id 274
+[0m[0m05:21:26,759 INFO  [org.infinispan.CLUSTER] (transport-thread--p15-t6) [Context=actionTokens] ISPN100007: After merge (or coordinator change), recovered members [keycloak-0] with topology id 274
+[0m[0m05:21:26,762 INFO  [org.infinispan.CLUSTER] (transport-thread--p15-t6) [Context=loginFailures] ISPN100007: After merge (or coordinator change), recovered members [keycloak-0] with topology id 274
+[0m[0m05:22:28,430 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN000094: Received new cluster view for channel ejb: [keycloak-0|99] (2) [keycloak-0, keycloak-1]
+[0m[0m05:22:28,431 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN100000: Node keycloak-1 joined the cluster
+[0m[0m05:22:28,432 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN000094: Received new cluster view for channel ejb: [keycloak-0|99] (2) [keycloak-0, keycloak-1]
+[0m[0m05:22:28,432 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN100000: Node keycloak-1 joined the cluster
+[0m[0m05:22:28,440 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN000094: Received new cluster view for channel ejb: [keycloak-0|99] (2) [keycloak-0, keycloak-1]
+[0m[0m05:22:28,451 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN100000: Node keycloak-1 joined the cluster
+[0m[0m05:22:28,452 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN000094: Received new cluster view for channel ejb: [keycloak-0|99] (2) [keycloak-0, keycloak-1]
+[0m[0m05:22:28,452 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN100000: Node keycloak-1 joined the cluster
+[0m[0m05:22:28,453 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN000094: Received new cluster view for channel ejb: [keycloak-0|99] (2) [keycloak-0, keycloak-1]
+[0m[0m05:22:28,453 INFO  [org.infinispan.CLUSTER] (thread-4,null,keycloak-0) ISPN100000: Node keycloak-1 joined the cluster
+[0m[0m05:22:29,567 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t3) [Context=org.infinispan.CONFIG] ISPN100002: Starting rebalance with members [keycloak-0, keycloak-1], phase READ_OLD_WRITE_ALL, topology id 275
+[0m[0m05:22:29,567 INFO  [org.infinispan.CLUSTER] (remote-thread--p6-t1) [Context=org.infinispan.CONFIG] ISPN100002: Starting rebalance with members [keycloak-0, keycloak-1], phase READ_OLD_WRITE_ALL, topology id 275
+[0m[0m05:22:29,738 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t3) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 276
+[0m[0m05:22:29,738 INFO  [org.infinispan.CLUSTER] (remote-thread--p6-t1) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 276
+[0m[0m05:22:29,753 INFO  [org.infinispan.CLUSTER] (remote-thread--p6-t1) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 277
+[0m[0m05:22:29,759 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t3) [Context=org.infinispan.CONFIG] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 277
+[0m[0m05:22:29,764 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t3) [Context=org.infinispan.CONFIG] ISPN100010: Finished rebalance with members [keycloak-0, keycloak-1], topology id 278
+[0m[0m05:22:29,767 INFO  [org.infinispan.CLUSTER] (remote-thread--p6-t1) [Context=org.infinispan.CONFIG] ISPN100010: Finished rebalance with members [keycloak-0, keycloak-1], topology id 278
+[0m[0m05:22:29,912 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t3) [Context=work] ISPN100002: Starting rebalance with members [keycloak-0, keycloak-1], phase READ_OLD_WRITE_ALL, topology id 275
+[0m[0m05:22:29,917 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t3) [Context=clientSessions] ISPN100002: Starting rebalance with members [keycloak-0, keycloak-1], phase READ_OLD_WRITE_ALL, topology id 275
+[0m[0m05:22:29,920 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t6) [Context=loginFailures] ISPN100002: Starting rebalance with members [keycloak-0, keycloak-1], phase READ_OLD_WRITE_ALL, topology id 275
+[0m[0m05:22:29,929 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t3) [Context=offlineSessions] ISPN100002: Starting rebalance with members [keycloak-0, keycloak-1], phase READ_OLD_WRITE_ALL, topology id 275
+[0m[0m05:22:29,940 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t3) [Context=offlineClientSessions] ISPN100002: Starting rebalance with members [keycloak-0, keycloak-1], phase READ_OLD_WRITE_ALL, topology id 275
+[0m[0m05:22:29,949 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t3) [Context=sessions] ISPN100002: Starting rebalance with members [keycloak-0, keycloak-1], phase READ_OLD_WRITE_ALL, topology id 275
+[0m[0m05:22:29,974 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t7) [Context=authenticationSessions] ISPN100002: Starting rebalance with members [keycloak-0, keycloak-1], phase READ_OLD_WRITE_ALL, topology id 275
+[0m[0m05:22:29,977 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t8) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 276
+[0m[0m05:22:29,980 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t7) [Context=actionTokens] ISPN100002: Starting rebalance with members [keycloak-0, keycloak-1], phase READ_OLD_WRITE_ALL, topology id 275
+[0m[0m05:22:30,002 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t8) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 276
+[0m[0m05:22:30,003 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t7) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 276
+[0m[0m05:22:30,006 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t6) [Context=offlineClientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 277
+[0m[0m05:22:30,009 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t8) [Context=loginFailures] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 277
+[0m[0m05:22:30,229 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t7) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 276
+[0m[0m05:22:30,233 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t7) [Context=offlineClientSessions] ISPN100010: Finished rebalance with members [keycloak-0, keycloak-1], topology id 278
+[0m[0m05:22:30,235 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t8) [Context=authenticationSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 277
+[0m[0m05:22:30,237 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t8) [Context=loginFailures] ISPN100010: Finished rebalance with members [keycloak-0, keycloak-1], topology id 278
+[0m[0m05:22:30,239 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t8) [Context=offlineSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 277
+[0m[0m05:22:30,240 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t8) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 276
+[0m[0m05:22:30,241 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t7) [Context=authenticationSessions] ISPN100010: Finished rebalance with members [keycloak-0, keycloak-1], topology id 278
+[0m[0m05:22:30,249 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t7) [Context=work] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 276
+[0m[0m05:22:30,256 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t8) [Context=offlineSessions] ISPN100010: Finished rebalance with members [keycloak-0, keycloak-1], topology id 278
+[0m[0m05:22:30,256 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t3) [Context=clientSessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 277
+[0m[0m05:22:30,257 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t6) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 276
+[0m[0m05:22:30,258 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t9) [Context=work] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 277
+[0m[0m05:22:30,258 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t10) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 276
+[0m[0m05:22:30,262 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t8) [Context=work] ISPN100010: Finished rebalance with members [keycloak-0, keycloak-1], topology id 278
+[0m[0m05:22:30,264 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t8) [Context=clientSessions] ISPN100010: Finished rebalance with members [keycloak-0, keycloak-1], topology id 278
+[0m[0m05:22:30,268 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t8) [Context=actionTokens] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 277
+[0m[0m05:22:30,272 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t8) [Context=sessions] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 277
+[0m[0m05:22:30,274 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t8) [Context=sessions] ISPN100010: Finished rebalance with members [keycloak-0, keycloak-1], topology id 278
+[0m[0m05:22:30,275 INFO  [org.infinispan.CLUSTER] (remote-thread--p13-t10) [Context=actionTokens] ISPN100010: Finished rebalance with members [keycloak-0, keycloak-1], topology id 278
+[0m[0m05:22:30,304 INFO  [org.infinispan.CLUSTER] (remote-thread--p24-t3) [Context=client-mappings] ISPN100002: Starting rebalance with members [keycloak-0, keycloak-1], phase READ_OLD_WRITE_ALL, topology id 275
+[0m[0m05:22:30,360 INFO  [org.infinispan.CLUSTER] (remote-thread--p24-t3) [Context=client-mappings] ISPN100009: Advancing to rebalance phase READ_ALL_WRITE_ALL, topology id 276
+[0m[0m05:22:30,366 INFO  [org.infinispan.CLUSTER] (remote-thread--p24-t3) [Context=client-mappings] ISPN100009: Advancing to rebalance phase READ_NEW_WRITE_ALL, topology id 277
+[0m[0m05:22:30,371 INFO  [org.infinispan.CLUSTER] (remote-thread--p24-t3) [Context=client-mappings] ISPN100010: Finished rebalance with members [keycloak-0, keycloak-1], topology id 278
+[0m[33m05:22:30,426 WARN  [org.jboss.as.ejb3.remote] (ClusterTopologyRegistrar - 1) WFLYEJB0509: Clustered EJBs in Node: keycloak-1 are bound to INADDR_ANY(0.0.0.0). Either use a non-wildcard server bind address or add client-mapping entries to the relevant socket-binding for the Remoting connector
