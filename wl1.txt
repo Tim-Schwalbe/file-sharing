@@ -1,0 +1,7 @@
+; TIM Whitlist List 2021/12/12
+; https://www.spamhaus.org/drop/drop.txt
+; Last-Modified: Tue, 30 Nov 2021 13:22:28 GMT
+; Expires: Thu, 12 Dec 2021 09:20:55 GMT
+231.231.231.231/32 ; TWL000001
+231.231.231.232/32 ; TWL000002
+231.231.231.233/32 ; TWL000003
